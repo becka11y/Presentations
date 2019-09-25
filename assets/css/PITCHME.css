@@ -1,0 +1,59 @@
+.text-purple { color: #36173A !important; }
+
+.bg-purple {
+    background: #36173A !important;
+}
+
+.reveal h2 {
+    font-size: 1.25em;
+}
+
+#title-footer {
+	background: rgba(0,0,0,0.1) !important;
+}
+
+.slides section div[data-video="true"] {
+    margin-top: 15%;
+ }
+
+#XXtitle-footer {
+    opacity: 1;
+    transition: opacity 800ms ease-in-out;
+    background: rgba(0,0,0,0.1) !important;
+    position: fixed;
+    height: 2vh;
+    z-index: 20;
+    width: 100%;
+    font-size: 1.75vh;
+    text-align: center;
+    letter-spacing: 0em;
+    padding-top: 0.5vh;
+    padding-bottom: 0.8vh;
+}
+
+.vh {
+  position: absolute !important; 
+  overflow: hidden !important; 
+  clip: rect(0 0 0 0) !important; 
+  height: 1px !important;
+  width: 1px !important; 
+  margin: -1px !important; 
+  padding: 0 !important; 
+  border: 0 !important; 
+}
+
+img[alt="Knowbility"] {
+    width: 500px;
+    height: auto;
+    margin: 0 0 4rem !important;
+}
+
+img[alt="W3C Member"] {
+    max-width: 300px;
+    max-height: 120px;
+    margin: 4rem 0 0 !important;
+}
+
+img[alt="water pouring into wine glass"] {
+    max-width: 60%;
+ }

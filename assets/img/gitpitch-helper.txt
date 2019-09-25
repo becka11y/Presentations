@@ -1,0 +1,40 @@
+gitpitch 
+
+style helpers:  https://gitpitch.com/docs/themes/css-utility-styles/
+
+Quote
+@quote[It's what I do that defines me.](Bruce Wayne)
+
+Images must be less than 1 MB
+optimize images - tinypng.com
+![alt text](image path or url)
+
+inline videos - !!must be streamed from a service!!
+![alt text?](http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4)
+
+youtube videos - must use the embed URL
+![alt text](https://youtube.com/<embed url>
+
+
+color gradient vertical
+---?color=linear-gradient(90deg, white 50%, #36173A 50%)
+
+color gradient horizontal
+---?color=linear-gradient(180deg, white 50%, #36173A 50%)
+
+background image 
+---?image=assets/img/child-1864718_1920.jpg&size=cover&opacity=55 */
+
+the snap widths represent the % of the entire page 
+not just within the snapregion. Play with this example to better understand
+
+---?color=linear-gradient(180deg, white 50%, #36173A 50%)
+
+@snap[west span-40]
+Here is a bunch of text on the left hand side, aligned left
+@snapend
+
+@snap[east span-50]
+Here is text on the right hand side, aligned right
+@snapend
+
