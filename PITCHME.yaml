@@ -1,4 +1,4 @@
-# GitPitch In-60-Seconds - A Very Short Tutorial.
+# Common Accessibility Errors.
 #
 
 #
@@ -18,7 +18,7 @@ theme-text       : [ "Roboto", "#626366", "none" ]
 theme-links      : [ "#397193", "#397193" ]
 theme-code       : [ "Source Code Pro" ]
 theme-controls   : [ "#397193" ]
-theme-margins    : [ "20", "150px" ]
+theme-margins    : [ "30px", "50px" ]
 
 #
 # Theme-Override Setting
@@ -30,10 +30,13 @@ theme-override: assets/css/PITCHME.css
 # Logo Setting
 # https://gitpitch.com/docs/settings/logo
 
-logo : assets/img/knowbility-logo.svg
+logo : assets/img/common/knowbility-logo.svg
 
 logo-position : top-left
 
+
+# code highlight
+highlight: tomorrow
 #
 # Layout Setting
 # Doc: https://gitpitch.com/docs/settings/layout
@@ -47,7 +50,7 @@ layout : center
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
-footnote : "WCAG by Example | Knowbility 2019"
+footnote : "Accessibility Techniques | Knowbility 2020"
 
 #
 # Published Setting
@@ -59,5 +62,5 @@ published : true
 # Twitter Card Settings [Pro Only]
 # Doc: https://gitpitch.com/docs/settings/twitter-card
 #
-title : "WCAG by Example"
-description : "Knowbility's Accessibility Training workshop to learn the basics of the Web Content Accessibility Guidelines"
+title : "Basic Accessibility Techniques"
+description : "Review of the basic accessibility techniques to make Web content usable by all."

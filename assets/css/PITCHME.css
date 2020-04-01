@@ -1,11 +1,20 @@
+
 .text-purple { color: #36173A !important; }
 
 .bg-purple {
     background: #36173A !important;
 }
 
+.white-list-text {
+	color: white !important;
+}
+
 .reveal h2 {
     font-size: 1.25em;
+}
+
+.reveal .controls button:focus {
+	outline: solid 0.5px !important;
 }
 
 #title-footer {
@@ -16,30 +25,27 @@
     margin-top: 15%;
  }
 
-#XXtitle-footer {
-    opacity: 1;
-    transition: opacity 800ms ease-in-out;
-    background: rgba(0,0,0,0.1) !important;
-    position: fixed;
-    height: 2vh;
-    z-index: 20;
-    width: 100%;
-    font-size: 1.75vh;
-    text-align: center;
-    letter-spacing: 0em;
-    padding-top: 0.5vh;
-    padding-bottom: 0.8vh;
+.h2-roboto {
+	font-family: "Roboto" !important;
+	color: white;
 }
 
+.north h1 {
+	top:-3em;
+}
+.reveal a {
+	text-decoration: underline;
+	
+}
 .vh {
-  position: absolute !important; 
-  overflow: hidden !important; 
-  clip: rect(0 0 0 0) !important; 
+  position: absolute !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
   height: 1px !important;
-  width: 1px !important; 
-  margin: -1px !important; 
-  padding: 0 !important; 
-  border: 0 !important; 
+  width: 1px !important;
+  margin: -1px !important;
+  padding: 0 !important;
+  border: 0 !important;
 }
 
 img[alt="Knowbility"] {
@@ -57,3 +63,18 @@ img[alt="W3C Member"] {
 img[alt="water pouring into wine glass"] {
     max-width: 60%;
  }
+
+.mp4-fixed-size video { width: 600px !important; }
+
+.mp4-fixed-height video { height: 800px; }
+
+.img-top img { margin-top: 4rem !important; }
+
+table.custom-header th {
+  font-variant: small-caps;
+  color: black;
+}
+
+table.custom-row tr:nth-child(even) {
+  background-color: #D3C5D5;
+}
