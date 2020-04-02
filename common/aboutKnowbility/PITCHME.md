@@ -21,6 +21,7 @@ Knowbility’s mission is to create a more inclusive digital world for all.
 ![W3C Member](/common/aboutKnowbility/img/w3cmember-v.svg)
 @snapend
 
+---
 @snap[north span-80]
 ## Knowbility Programs
 @snapend
