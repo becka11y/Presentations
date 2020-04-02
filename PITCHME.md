@@ -30,6 +30,16 @@ Becky Gibson, Knowbility
 Note: All links open in new window
 @snapend
 
+---
+@snap[north span-80]
+## A11y Numeronym
+@snapend
+
+@snap[midpoint span-70]
+@img[a plus 11 letters plus y represents accessibility](/assets/img/a11y-numeronym.png)
+@snapend
+Note: A number-based Word. Other examples: W3, I18N, K9, Y2K
+
 ---?include=common/a11yDefinition/PITCHME.md
 
 ---?include=common/HowPWDUseTech/PITCHME.md
