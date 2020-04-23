@@ -2,7 +2,7 @@ gitpitch
 public api:
 https://gitpitch.com/<user>/<repo name>/<optional branch>
 
-Starting:  docker run -it -v /Users/bgibson/documents/projects/git/WCAG-by-Example:/repo -p 9000:9000 gitpitch/desktop:pro
+Starting:  docker run -it -v /Users/bgibson/documents/projects/git/InventiveLabs:/repo -p 9000:9000 gitpitch/desktop:pro
 
 view speaker notes - add ?n=true to end of url
 https://gitpitch.com/onetapbeyond/gen_metrics?n=true
